@@ -1,0 +1,402 @@
+[
+  {
+    "lastname": "Иванов",
+    "firstname": "Алексей",
+    "patronymic": "Петрович",
+    "rating": 245,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-03-15T14:23:00"
+  },
+  {
+    "lastname": "Смирнова",
+    "firstname": "Мария",
+    "patronymic": "Сергеевна",
+    "rating": 532,
+    "is_expert_assessment": true,
+    "reg_datetime": "2024-06-22T09:45:00"
+  },
+  {
+    "lastname": "Кузнецов",
+    "firstname": "Дмитрий",
+    "patronymic": "Владимирович",
+    "rating": 789,
+    "is_expert_assessment": false,
+    "reg_datetime": "2023-11-08T16:30:00"
+  },
+  {
+    "lastname": "Попова",
+    "firstname": "Екатерина",
+    "patronymic": "Андреевна",
+    "rating": 1024,
+    "is_expert_assessment": true,
+    "reg_datetime": "2024-01-19T11:15:00"
+  },
+  {
+    "lastname": "Соколов",
+    "firstname": "Михаил",
+    "patronymic": "Игоревич",
+    "rating": 1267,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-08-03T13:52:00"
+  },
+  {
+    "lastname": "Лебедева",
+    "firstname": "Анна",
+    "patronymic": "Дмитриевна",
+    "rating": 1489,
+    "is_expert_assessment": true,
+    "reg_datetime": "2023-09-27T10:20:00"
+  },
+  {
+    "lastname": "Козлов",
+    "firstname": "Николай",
+    "patronymic": "Александрович",
+    "rating": 1678,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-02-14T15:40:00"
+  },
+  {
+    "lastname": "Новикова",
+    "firstname": "Ольга",
+    "patronymic": "Викторовна",
+    "rating": 1823,
+    "is_expert_assessment": true,
+    "reg_datetime": "2024-05-11T08:25:00"
+  },
+  {
+    "lastname": "Морозов",
+    "firstname": "Андрей",
+    "patronymic": "Евгеньевич",
+    "rating": 1956,
+    "is_expert_assessment": false,
+    "reg_datetime": "2023-12-30T14:05:00"
+  },
+  {
+    "lastname": "Петрова",
+    "firstname": "Татьяна",
+    "patronymic": "Олеговна",
+    "rating": 2134,
+    "is_expert_assessment": true,
+    "reg_datetime": "2024-07-18T12:33:00"
+  },
+  {
+    "lastname": "Волков",
+    "firstname": "Игорь",
+    "patronymic": "Михайлович",
+    "rating": 2289,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-04-25T16:18:00"
+  },
+  {
+    "lastname": "Соловьева",
+    "firstname": "Наталья",
+    "patronymic": "Павловна",
+    "rating": 2456,
+    "is_expert_assessment": true,
+    "reg_datetime": "2023-10-12T09:50:00"
+  },
+  {
+    "lastname": "Васильев",
+    "firstname": "Сергей",
+    "patronymic": "Николаевич",
+    "rating": 2578,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-09-06T13:27:00"
+  },
+  {
+    "lastname": "Зайцева",
+    "firstname": "Елена",
+    "patronymic": "Ивановна",
+    "rating": 312,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-03-28T11:42:00"
+  },
+  {
+    "lastname": "Павлов",
+    "firstname": "Владимир",
+    "patronymic": "Анатольевич",
+    "rating": 623,
+    "is_expert_assessment": true,
+    "reg_datetime": "2024-01-07T15:10:00"
+  },
+  {
+    "lastname": "Семенова",
+    "firstname": "Ирина",
+    "patronymic": "Геннадьевна",
+    "rating": 847,
+    "is_expert_assessment": false,
+    "reg_datetime": "2023-11-20T10:35:00"
+  },
+  {
+    "lastname": "Голубев",
+    "firstname": "Валерий",
+    "patronymic": "Романович",
+    "rating": 1156,
+    "is_expert_assessment": true,
+    "reg_datetime": "2024-06-09T14:58:00"
+  },
+  {
+    "lastname": "Виноградова",
+    "firstname": "Светлана",
+    "patronymic": "Федоровна",
+    "rating": 1334,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-08-21T09:12:00"
+  },
+  {
+    "lastname": "Богданов",
+    "firstname": "Константин",
+    "patronymic": "Юрьевич",
+    "rating": 1512,
+    "is_expert_assessment": true,
+    "reg_datetime": "2023-09-14T16:45:00"
+  },
+  {
+    "lastname": "Воробьева",
+    "firstname": "Юлия",
+    "patronymic": "Максимовна",
+    "rating": 1745,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-02-03T12:20:00"
+  },
+  {
+    "lastname": "Федоров",
+    "firstname": "Роман",
+    "patronymic": "Артемович",
+    "rating": 1889,
+    "is_expert_assessment": true,
+    "reg_datetime": "2024-05-17T08:55:00"
+  },
+  {
+    "lastname": "Михайлова",
+    "firstname": "Дарья",
+    "patronymic": "Станиславовна",
+    "rating": 2012,
+    "is_expert_assessment": false,
+    "reg_datetime": "2023-12-08T14:30:00"
+  },
+  {
+    "lastname": "Яковлев",
+    "firstname": "Максим",
+    "patronymic": "Валерьевич",
+    "rating": 2198,
+    "is_expert_assessment": true,
+    "reg_datetime": "2024-07-05T11:08:00"
+  },
+  {
+    "lastname": "Григорьева",
+    "firstname": "Вероника",
+    "patronymic": "Борисовна",
+    "rating": 2367,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-04-12T15:36:00"
+  },
+  {
+    "lastname": "Романов",
+    "firstname": "Артем",
+    "patronymic": "Денисович",
+    "rating": 2501,
+    "is_expert_assessment": true,
+    "reg_datetime": "2023-10-29T10:14:00"
+  },
+  {
+    "lastname": "Захарова",
+    "firstname": "Полина",
+    "patronymic": "Леонидовна",
+    "rating": 456,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-09-15T13:48:00"
+  },
+  {
+    "lastname": "Беляев",
+    "firstname": "Егор",
+    "patronymic": "Константинович",
+    "rating": 712,
+    "is_expert_assessment": true,
+    "reg_datetime": "2024-03-06T09:25:00"
+  },
+  {
+    "lastname": "Королева",
+    "firstname": "Алина",
+    "patronymic": "Игоревна",
+    "rating": 934,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-01-24T16:02:00"
+  },
+  {
+    "lastname": "Орлов",
+    "firstname": "Павел",
+    "patronymic": "Сергеевич",
+    "rating": 1089,
+    "is_expert_assessment": true,
+    "reg_datetime": "2023-11-03T12:38:00"
+  },
+  {
+    "lastname": "Киселева",
+    "firstname": "Кристина",
+    "patronymic": "Васильевна",
+    "rating": 1256,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-06-30T10:16:00"
+  },
+  {
+    "lastname": "Макаров",
+    "firstname": "Станислав",
+    "patronymic": "Григорьевич",
+    "rating": 1423,
+    "is_expert_assessment": true,
+    "reg_datetime": "2024-08-14T15:53:00"
+  },
+  {
+    "lastname": "Ковалева",
+    "firstname": "Виктория",
+    "patronymic": "Тимофеевна",
+    "rating": 1612,
+    "is_expert_assessment": false,
+    "reg_datetime": "2023-09-01T09:40:00"
+  },
+  {
+    "lastname": "Ильин",
+    "firstname": "Денис",
+    "patronymic": "Антонович",
+    "rating": 1798,
+    "is_expert_assessment": true,
+    "reg_datetime": "2024-02-20T14:22:00"
+  },
+  {
+    "lastname": "Гусева",
+    "firstname": "София",
+    "patronymic": "Матвеевна",
+    "rating": 1967,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-05-08T11:55:00"
+  },
+  {
+    "lastname": "Титов",
+    "firstname": "Кирилл",
+    "patronymic": "Владиславович",
+    "rating": 2078,
+    "is_expert_assessment": true,
+    "reg_datetime": "2023-12-18T08:28:00"
+  },
+  {
+    "lastname": "Кузьмина",
+    "firstname": "Арина",
+    "patronymic": "Егоровна",
+    "rating": 2245,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-07-26T16:07:00"
+  },
+  {
+    "lastname": "Степанов",
+    "firstname": "Тимофей",
+    "patronymic": "Ярославович",
+    "rating": 2412,
+    "is_expert_assessment": true,
+    "reg_datetime": "2024-04-03T12:44:00"
+  },
+  {
+    "lastname": "Никитина",
+    "firstname": "Милана",
+    "patronymic": "Семеновна",
+    "rating": 2534,
+    "is_expert_assessment": false,
+    "reg_datetime": "2023-10-19T10:58:00"
+  },
+  {
+    "lastname": "Белов",
+    "firstname": "Данил",
+    "patronymic": "Русланович",
+    "rating": 378,
+    "is_expert_assessment": true,
+    "reg_datetime": "2024-09-28T14:31:00"
+  },
+  {
+    "lastname": "Медведева",
+    "firstname": "Ева",
+    "patronymic": "Марковна",
+    "rating": 567,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-03-19T09:06:00"
+  },
+  {
+    "lastname": "Антонов",
+    "firstname": "Илья",
+    "patronymic": "Дмитриевич",
+    "rating": 823,
+    "is_expert_assessment": true,
+    "reg_datetime": "2024-01-13T15:49:00"
+  },
+  {
+    "lastname": "Тарасова",
+    "firstname": "Ксения",
+    "patronymic": "Алексеевна",
+    "rating": 1001,
+    "is_expert_assessment": false,
+    "reg_datetime": "2023-11-27T11:23:00"
+  },
+  {
+    "lastname": "Борисов",
+    "firstname": "Матвей",
+    "patronymic": "Павлович",
+    "rating": 1189,
+    "is_expert_assessment": true,
+    "reg_datetime": "2024-06-16T08:37:00"
+  },
+  {
+    "lastname": "Фролова",
+    "firstname": "Александра",
+    "patronymic": "Николаевна",
+    "rating": 1378,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-08-08T16:12:00"
+  },
+  {
+    "lastname": "Алексеев",
+    "firstname": "Глеб",
+    "patronymic": "Викторович",
+    "rating": 1545,
+    "is_expert_assessment": true,
+    "reg_datetime": "2023-09-23T12:50:00"
+  },
+  {
+    "lastname": "Давыдова",
+    "firstname": "Маргарита",
+    "patronymic": "Андреевна",
+    "rating": 1712,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-02-11T10:28:00"
+  },
+  {
+    "lastname": "Егоров",
+    "firstname": "Ярослав",
+    "patronymic": "Олегович",
+    "rating": 1934,
+    "is_expert_assessment": true,
+    "reg_datetime": "2024-05-29T15:03:00"
+  },
+  {
+    "lastname": "Крылова",
+    "firstname": "Диана",
+    "patronymic": "Кирилловна",
+    "rating": 2089,
+    "is_expert_assessment": false,
+    "reg_datetime": "2023-12-05T09:18:00"
+  },
+  {
+    "lastname": "Сидоров",
+    "firstname": "Артур",
+    "patronymic": "Максимович",
+    "rating": 2223,
+    "is_expert_assessment": true,
+    "reg_datetime": "2024-07-13T14:46:00"
+  },
+  {
+    "lastname": "Николаева",
+    "firstname": "Варвара",
+    "patronymic": "Артемовна",
+    "rating": 2445,
+    "is_expert_assessment": false,
+    "reg_datetime": "2024-04-20T11:29:00"
+  }
+]
