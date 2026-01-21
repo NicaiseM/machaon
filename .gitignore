@@ -1,0 +1,48 @@
+### Общие настройки ###
+
+# Данные
+*.csv
+*.csv#
+*.xls
+*.xlsx
+*.mat
+*.pgc
+*.ana
+*.anp
+
+# Кэш
+**/__pycache__
+**/slprj
+*.pyc
+*.slxc
+*.tmp
+
+# Проекты
+**/.spyproject
+*.sublime-project
+*.sublime-workspace
+
+# Бэкапы и дистрибутивы
+**/*.build
+**/*.dist
+**/*.ms14 (Security copy)
+
+# LaTeX
+*.log
+*.aux
+*.toc
+*.out
+*.synctex.gz
+*.synctex(busy)
+*.bbl
+*.blg
+
+# Медиа
+*.mp4
+
+# ДСП
+**/*\[ДСП\]*
+*\[ДСП\]*.*
+
+### Частные настройки ###
+/__dist
