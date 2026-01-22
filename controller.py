@@ -27,6 +27,8 @@ class Controller():
         self.tt = players
         self.players_count = self.tt.shape[0]
         self.create_tournament_table()
+        self.previous_pairs = []
+        self.latest_forced_bye = None
 
     def create_tournament_table(self):
         bands = self.create_bands()
@@ -71,14 +73,32 @@ class Controller():
         self.tt = self.tt.sort_values(
             by=['mm', 'buchholz', 'berger', 'rating'])
         # Случайно определяем добровольно отсутствующих.
+        # !!! Переработать, чтобы индексы df считались, а не текущее положение
         volyntary_byes = [
             random.random() < 0.05 for i in range(self.players_count)]
         volyntary_byes_count = sum(volyntary_byes)
         forced_byes = self.players_count*[False]
         if (self.players_count - volyntary_byes_count)%2:
+            # !!! Добавить проверку на повторное форсированное отсутствие
+            # if self.cfg['pairing_criteria']['not_second_forced_bye']:
+            #     tralala = True
             # Назначаем отсутствующим последнего присутствующего игрока.
             forced_bye_idx = volyntary_byes.rindex(False)
             forced_byes[forced_bye_idx] = True
+        else:
+            self.latest_forced_bye = None
+
+    def check_pairing_criteria(self, pair):
+        pair_is_valid = True
+        if self.cfg['pairing_criteria']['not_twice_play']:
+            pair_is_valid = pair in self.previous_pairs
+        # !!! Дописать проверки
+        if self.cfg['pairing_criteria']['not_second_float']:
+            pair_is_valid = True
+        if self.cfg['pairing_criteria']['not_second_same_color']:
+            pair_is_valid = True
+        return pair_is_valid
+        
 
     def calc_probability_by_elo(self, players_pair):
         R0 = self.tt.loc[players_pair[0], 'rating']
@@ -113,6 +133,15 @@ if __name__ == '__main__':
         'bar': 2300,
         'bands': 8,
         'D': 0.75,
+        'pairing_criteria': {
+            'not_twice_play': True,
+            'not_second_forced_bye': True,
+            # Обработать: Не применяется в последнем туре, если раундов < 6,
+            # иначе не применяется в двух последних турах.
+            'not_second_float': False,
+            # Не применяется вообще, т.к. у нас нигири.
+            'not_second_same_color': False
+            }
         }
     controller = Controller(cfg, players)
     controller.simulate_tournament()
